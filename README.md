@@ -57,6 +57,8 @@ Refactored HTML class names to make them highly precise.
 Designed custom, reusable styles for interactive button elements.
 Saved a new graphic asset into the project's assets folder.
 Fixed a squished layout by making the image perfectly circular and fluid.
+Added anchor tags to the html to prepare for each social media link to be included. 
+Updated the git one final time before stopping for the night. 
 
 ### Built with
 
@@ -104,13 +106,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+Google AI helped with the git commits and helped me understand better what a good commit is and how to actually do them! I was struggling before but now I think I am getting the hang of it...or at least I'm improving somewhat.  
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
 
 ## Author
 
