@@ -20,7 +20,15 @@ p {
     line-height: 1.5;
     
 }
+/* moved from index.html to style.css for better organization */
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center; 
+}
 
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
 
 
 
