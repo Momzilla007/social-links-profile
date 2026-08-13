@@ -46,18 +46,24 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+Created a clean local Git repository on the main branch.
+Connected the local repo to GitHub using the --set-upstream command.
+Confirmed a .gitignore file was active to protect private configuration files.
+Wrote base HTML structure using semantic tags like <main> and <div>.
+Placed font links before CSS files in the <head> to prevent page flickering.
+Extracted inline styles out of the HTML into an external stylesheet.
+Applied a baseline CSS reset to force consistent styles across all browsers.
+Refactored HTML class names to make them highly precise.
+Designed custom, reusable styles for interactive button elements.
+Saved a new graphic asset into the project's assets folder.
+Fixed a squished layout by making the image perfectly circular and fluid.
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
