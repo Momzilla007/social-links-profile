@@ -7,7 +7,7 @@ body {
     justify-content: center;
     background-color: #141414;
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     color: #ffffff;
 
@@ -49,6 +49,17 @@ p {
     height: auto;
     object-fit: cover;
 }
+
+.button-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction:column;
+    gap: 1em;
+    width: 100%;
+
+}
+
 /* removed button and replaced with the below css */
 .social-link {
     display: flex;
@@ -59,39 +70,20 @@ p {
     color: #ffffff;
     text-decoration: none;
     border: none;
-    gap: 5%;
-    width: 20rem;
     height: 3rem;
-    padding: 0.5em 1em;
-    margin: 0.5em;
-    cursor: pointer;
     font-size: 1em;
     font-weight: 600;
     border-radius: 10px;
-    cursor: pointer;
     transition: background-color 0.2s ease;
 }
 
 .social-link:hover,
-.social-link:focus {
+.social-link:focus-visible {
     background-color: #c5f82a; 
     color:#141414
 }
 
-.button-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction:column;
-    background-color: #1f1f1f;
-    border: none; 
-    padding: 0.5em 1em; 
-    margin: 0.5em; 
-    cursor: pointer; 
-    font-size: 1em; 
-    font-weight: 600; 
-    border-radius: 20px; 
-}
+
 
 .location-accent {
     color: #c5f82a; 
@@ -109,6 +101,11 @@ p {
     color: hsl(228, 45%, 44%); 
 }
 
+.attribution a:hover,
+.attribution a:focus {
+    color:#c5f82a;
+}
+
 footer {
     display: flex;
     flex-direction: row; 
@@ -119,9 +116,7 @@ footer {
 
 /* colors used in the project 
 - Green: #c5f82a
-
 - White: #ffffff
-
 - Grey 700: #333333
 - Grey 800: #1f1f1f
 - Grey 900: #141414 
