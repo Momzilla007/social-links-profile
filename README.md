@@ -15,9 +15,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,20 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./assets/images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Momzilla007/social-links-profile.git)
+- Live Site URL: [Netlify](https://social-links-profile-fem-challenge.netlify.app/)
+
 
 ## My process
 
@@ -58,7 +49,12 @@ Designed custom, reusable styles for interactive button elements.
 Saved a new graphic asset into the project's assets folder.
 Fixed a squished layout by making the image perfectly circular and fluid.
 Added anchor tags to the html to prepare for each social media link to be included. 
-Updated the git one final time before stopping for the night. 
+Updated the git one final time before stopping for the night.
+Add in the links for the anchor tags. Then added in the target for the links to open in a blank page. 
+Fixed up the css style properties for the body, wrapper and main so the card was placed correctly. 
+Finished up the challenge and updated the README doc.
+Ran an html validation on my index.html and realized I needed to remove the button element from my social media links. Did this fix and then updated the git with the changes. 
+Finalizing the README.md and then going to submit to FEM next.
 
 ### Built with
 
@@ -69,56 +65,37 @@ Updated the git one final time before stopping for the night.
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+One very important thing I learned in this lesson is that you cannot place an anchor tag within a button or vice versa. I may have known this before but had forgotten and thankfully, I ran my index.html through the markup validator to look for errors and it came up. I will always remember to validate from now on. Even checked the css too. So, I learned that validating is, in fact, helpful.  
 
-To see how you can add code snippets, see below:
+Also, I learned that it is so much more fun when you personalize the content in these challenges. I like that this is about me and it may come in handy. 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+Flexbox is actually pretty amazing.... I like it! 
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Oh, and I also understand the :focus state a bit better now. 
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I'd like to understand flex better, so I will be focusing on that a little more and improving my knowledge of css and learning what some of the new and recent features are and what ones are actually stable enough to safely use. I know I have seen some amazing things with transitions and what not and some stuff we used to use javascript for, can actually be created with css alone. Kind of crazy to me and that is awesome! I must learn this stuff. It looks pretty neat. 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [html validator](https://validator.w3.org/#validate_by_uri+with_options) - I was once taught that validating your html is best practice and I figure I should get back into that habit. If you ever want to validate your html and check for errors, this is a great tool.
+- [css validator](https://jigsaw.w3.org/css-validator/) - Checked my css for any mistakes I may have made, and no errors found. Great tool for finding syntax errors.
+- [freecodecamp forum question on anchors and buttons](https://forum.freecodecamp.org/t/solved-my-anchor-moves-my-botton-lol/160750) - A bit of info on using anchor tags with buttons and how you should not use them together, which is something I think I knew once upon a time but had forgotten. Anyway, this prompted me to make a fix and remove the button from my social media links. 
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ### AI Collaboration
 
-Google AI helped with the git commits and helped me understand better what a good commit is and how to actually do them! I was struggling before but now I think I am getting the hang of it...or at least I'm improving somewhat.  
+Google AI helped with the git commits and helped me understand better what a good commit is and how to actually do them! I was struggling before but now I think I am getting the hang of it...or at least I'm improving somewhat.
+
+I tried out VSCode autofill on this project just to see how good it is and well, I think I'm on the fence with this. Ultimately, I turned it back off again because it really doesn't seem to get the full picture. For example, I didn't want to add in margins that much because that messes with your layout, yet it kept putting in margins all the time.  
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Andrea Dyson](https://itsocodedesign.ca/)
+- Frontend Mentor - [@Momzilla007](https://www.frontendmentor.io/profile/Momzilla007)
+- LinkedIn - [@Andrea Dyson](https://www.linkedin.com/in/andrea-dyson-33994056/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

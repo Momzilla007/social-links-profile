@@ -10,7 +10,6 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: #ffffff;
-    
 
 }
 
@@ -50,7 +49,7 @@ p {
     height: auto;
     object-fit: cover;
 }
-
+/* removed button and replaced with the below css */
 .social-link {
     display: flex;
     align-items: center;
@@ -73,7 +72,8 @@ p {
     transition: background-color 0.2s ease;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
     background-color: #c5f82a; 
     color:#141414
 }
@@ -115,7 +115,7 @@ footer {
     justify-content: center;
     width: 100%;
     margin-top: auto;
-
+}
 
 /* colors used in the project 
 - Green: #c5f82a
@@ -124,5 +124,5 @@ footer {
 
 - Grey 700: #333333
 - Grey 800: #1f1f1f
-- Grey 900: #141414 */
-
+- Grey 900: #141414 
+*/
